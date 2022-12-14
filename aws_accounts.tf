@@ -7,7 +7,7 @@ module "my_subaccount" {
     aws-sso-scim_user.user["demouser@codepro.uk"].id
   ]
   prismacloud_account_groups = [
-    prismacloud_account_group.test_group.group_id
+#    prismacloud_account_group.test_group.group_id
   ]
 }
 
@@ -19,7 +19,7 @@ module "test_account_2" {
     aws-sso-scim_user.user["hasitha@codepro.uk"].id
   ]
   prismacloud_account_groups = [
-    prismacloud_account_group.test_group.group_id
+#    prismacloud_account_group.test_group.group_id
   ]
 }
 
